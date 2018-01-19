@@ -1,0 +1,372 @@
+ /* mobile first view  */
+
+ .grid {
+    display: grid;
+    grid-template-columns:  240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+}
+
+#a {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    min-height: 75px;
+    background-color: brown;
+}
+
+#b {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgba(165, 6, 152, 0.342);
+}
+
+#c {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end: 5;
+    background-color: rgba(6, 9, 165, 0.342);
+}
+
+#d {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end: 5;
+    background-color: rgba(24, 165, 6, 0.342);
+}
+
+#e {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5;
+    grid-row-end: 6;
+    background-color: rgba(56, 56, 56, 0.699);
+}
+
+#f {
+    border: solid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:5;
+    grid-row-end: 6;
+    background-color: rgba(56, 56, 56, 0.699);
+}
+
+#g {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:6;
+    grid-row-end: 7;
+    background-color: rgba(56, 56, 56, 0.699);
+}
+
+#h {
+    border: solid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:6;
+    grid-row-end: 7;
+    background-color: rgba(56, 56, 56, 0.699);
+}
+
+#i {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:7;
+    grid-row-end: 8;
+    background-color: rgb(230, 89, 171);
+}
+
+
+
+@media only screen and (max-width: 475px){
+    .grid {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    #a {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        min-height: 75px;
+        background-color: brown;
+    }
+    
+    #b {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: rgba(165, 6, 152, 0.342);
+    }
+    
+    #c {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:3;
+        grid-row-end: 5;
+        background-color: rgba(6, 9, 165, 0.342);
+    }
+    
+    #d {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:4;
+        grid-row-end: 5;
+        background-color: rgba(24, 165, 6, 0.342);
+    }
+    
+    #e {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:5;
+        grid-row-end: 6;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #f {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:5;
+        grid-row-end: 6;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #g {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:6;
+        grid-row-end: 7;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #h {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:6;
+        grid-row-end: 7;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #i {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:7;
+        grid-row-end: 8;
+        background-color: rgb(230, 89, 171);
+    }  
+}
+
+
+
+@media only screen and (min-width: 481px){
+    .grid {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+    
+    #a {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        min-height: 75px;
+        background-color: brown;
+    }
+    
+    #b {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: rgba(165, 6, 152, 0.342);
+    }
+    
+    #c {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:3;
+        grid-row-end: 5;
+        background-color: rgba(6, 9, 165, 0.342);
+    }
+    
+    #d {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:4;
+        grid-row-end: 5;
+        background-color: rgba(24, 165, 6, 0.342);
+    }
+    
+    #e {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:5;
+        grid-row-end: 6;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #f {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:5;
+        grid-row-end: 6;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #g {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:6;
+        grid-row-end: 7;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #h {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:6;
+        grid-row-end: 7;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #i {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:7;
+        grid-row-end: 8;
+        background-color: rgb(230, 89, 171);
+    }  
+}
+
+
+ 
+ 
+@media only screen and (min-width: 768px){
+     
+  
+    .dims {
+        display: none;
+    }
+    
+     .grid {
+        display: grid;
+        grid-template-columns: 200px 250px 250px 250px 250px;
+        grid-template-rows: 100px 200px 250px 150px;
+    }
+    
+    #a {
+        border: solid;
+        outline: black;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        min-height: 100px;
+        background-color: brown;
+    }
+    
+    #b {
+        border: solid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end: 5;
+        background-color: rgba(165, 6, 152, 0.342);
+    }
+    
+    #c {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start:2;
+        grid-row-end: 3;
+        background-color: rgba(6, 9, 165, 0.342);
+    }
+    
+    #d {
+        border: solid;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start:2;
+        grid-row-end: 3;
+        background-color: rgba(24, 165, 6, 0.342);
+    }
+    
+    #e {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:3;
+        grid-row-end: 4;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #f {
+        border: solid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:3;
+        grid-row-end: 4;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #g {
+        border: solid;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start:3;
+        grid-row-end: 4;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #h {
+        border: solid;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start:3;
+        grid-row-end: 4;
+        background-color: rgba(56, 56, 56, 0.699);
+    }
+    
+    #i {
+        border: solid;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start:4;
+        grid-row-end: 5;
+        background-color: rgb(230, 89, 171);
+    }
+ }
